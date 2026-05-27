@@ -64,3 +64,19 @@ Upon establishing an active shell terminal session under user `jarvis`, automate
 * **Headless Linux Administration:** Proves complete capability deploying, navigating, and maintaining enterprise Linux platforms purely via text-based TTY interfaces without a graphical user interface (GUI)—matching modern AWS, Azure, and on-premise production server models.
 * **Logical Volume Engineering:** Demonstrates conceptual grasp of Logical Volume Management (LVM) abstractions to reallocate persistent block arrays seamlessly on live infrastructure without data loss.
 * **Infrastructure Observability:** Shows ability to interpret text-based low-level log outputs regarding initialization flows (`cloud-init`), hardware network state flags (`enp0s3`), and secure access daemon initialization cycles.
+
+## 🛠 Phase 3: Kali Linux Infrastructure Deployment
+
+### 1. Platform Engineering Approach
+* **Deployment Type:** Pre-configured Oracle VirtualBox Virtual Machine Architecture.
+* **Target Objective:** Establish an isolated security testing platform inside the virtual subnet.
+* **Hardware Allocations Matrix:** 
+  * **Compute Allocation:** 2 vCPUs
+  * **Volatile Memory:** 2048 MB RAM
+  * **Graphics Engine:** VMSVGA with 128 MB Video Memory
+* **Status:** Environment imported cleanly via hypervisor engine integration. Default administrative user initialized.
+
+### 2. Post-Deployment Verification
+* **Status:** Successful boot to graphical interface (XFCE Desktop Environment).
+* **Network Integration:** Interface dynamically verified with full external gateway communication.
+* **Administrative Access:** Validated root privilege elevation pathways utilizing the `sudo` command framework.
